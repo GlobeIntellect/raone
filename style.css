@@ -115,7 +115,66 @@
             background: linear-gradient(45deg, #ff1a1a, #ff6666);
         }
 
+          .flip-card-2 .flip-card-front {
+            background: linear-gradient(45deg, #fc5c7d, #6a82fb);
+        }
 
+        .flip-card-2 .flip-card-back {
+            background: linear-gradient(45deg, #35c2f5, #65a2ff);
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-2:hover .flip-card-front {
+            background: linear-gradient(45deg, #ff1a1a, #ff6666);
+        }
+.flip-card-3 .flip-card-front {
+            background: linear-gradient(45deg, #fc5c7d, #6a82fb);
+        }
+
+        .flip-card-3 .flip-card-back {
+            background: linear-gradient(45deg, #35c2f5, #65a2ff);
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-3:hover .flip-card-front {
+            background: linear-gradient(45deg, #ff1a1a, #ff6666);
+        }
+.flip-card-4 .flip-card-front {
+            background: linear-gradient(45deg, #fc5c7d, #6a82fb);
+        }
+
+        .flip-card-4 .flip-card-back {
+            background: linear-gradient(45deg, #35c2f5, #65a2ff);
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-4:hover .flip-card-front {
+            background: linear-gradient(45deg, #ff1a1a, #ff6666);
+        }
+.flip-card-5 .flip-card-front {
+            background: linear-gradient(45deg, #fc5c7d, #6a82fb);
+        }
+
+        .flip-card-5 .flip-card-back {
+            background: linear-gradient(45deg, #35c2f5, #65a2ff);
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-5:hover .flip-card-front {
+            background: linear-gradient(45deg, #ff1a1a, #ff6666);
+        }
+.flip-card-6 .flip-card-front {
+            background: linear-gradient(45deg, #fc5c7d, #6a82fb);
+        }
+
+        .flip-card-6 .flip-card-back {
+            background: linear-gradient(45deg, #35c2f5, #65a2ff);
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-6:hover .flip-card-front {
+            background: linear-gradient(45deg, #ff1a1a, #ff6666);
+        }
   .text-box{
    width: 450px;
    height: 400px;
