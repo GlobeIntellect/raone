@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .code-container {
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background: linear-gradient(45deg, #ff7e5f, #feb47b);
+      color: #fff;
+      transition: background 0.3s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+
+<div id="codeContainer" class="code-container">
+  <pre>
+    <code>
+      #include &lt;iostream.h&gt;
+      
+class Account
+ {  
+   public:  
+   float salary = 60000;   
+ };  
+   class Programmer: public Account 
+   {  
+   public:  
+   float bonus = 5000;    
+   };       
+int main() 
+{  
+     Programmer p1;  
+     cout&lt;&lt;"Salary: "&lt;&lt;p1.salary&lt;&lt;endl;    
+     cout&lt;&lt;"Bonus: "&lt;&lt;p1.bonus&lt;&lt;endl;    
+    return 0;  
+}
+    </code>
+  </pre>
+</div>
+
+<script>
+  function changeCodeColor() {
+    let codeContainer = document.getElementById('codeContainer');
+    codeContainer.style.background = getRandomGradient();
+  }
+
+  function getRandomGradient() {
+    // Generate a random gradient color
+    let color1 = getRandomColor();
+    let color2 = getRandomColor();
+    return `linear-gradient(45deg, ${color1}, ${color2})`;
+  }
+
+  function getRandomColor() {
+    // Generate a random hex color
+    return '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6);
+  }
+
+  // Call the color change function on page load
+  changeCodeColor();
+</script>
+
+</body>
+</html>
