@@ -61,6 +61,8 @@
   .text-box{
       color: #fff;
       position: absolute;
+   left: 0px;
+   width: 300px;
       padding: 20px 0;
 
   }
