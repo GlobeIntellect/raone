@@ -55,8 +55,22 @@
       background: #fff;
       transition: width 0.3s;
   }
-  .nav-links ul li a:hover::after{
-      width: 100%;
+  /*.nav-links ul li a:hover::after{
+      width: 100%;*/
+
+   .nav-links ul li a:hover {
+    color: #fff;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Additional styling for the underline effect on hover */
+.nav-links ul li a:hover::after {
+    background: #fff;
+}
   }
 .cards-column {
             display: flex;
