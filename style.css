@@ -116,9 +116,14 @@
         }
 
   .text-box{
+   width: 350px;
+   height: 400px;
       color: #fff;
       position: absolute;
-   bottom: 8%;
+   top: 250px;
+right: 870px;
+
+   
   }
   .text-box p{
       font-size: 50px;
