@@ -177,12 +177,12 @@
             background: linear-gradient(45deg, #ff1a1a, #ff6666);
         }
   .text-box{
-   width: 500px;
+   width: 480px;
    height: 400px;
       color: #fff;
       position: absolute;
    top: 450px;
-right: 400px;
+right: 380px;
 
    
   }
