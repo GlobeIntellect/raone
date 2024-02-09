@@ -61,7 +61,7 @@
   .text-box{
       color: #fff;
       position: absolute;
-      /*top: 7%;*/
+      padding: 70px 0;
 
   }
   .text-box p{
