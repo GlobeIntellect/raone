@@ -1,0 +1,223 @@
+
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'poppins', sans-serif;
+  }
+  .container{
+      width: 100%;
+      height: 100vh;
+      background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(0ba803b8a6f253831cc8014b29b23f0c5738eac182da7261e146765088fe2e77.0.JPG);
+      background-size: cover;
+      background-position: center;
+  padding: 0 8%;
+  position: relative;
+  }
+  nav{
+      display: flex;
+      padding: 5px 0;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+  .nav-links{
+      flex: 1;
+      text-align: right;
+  }
+
+  .logo{
+      width: 120px;
+      cursor: pointer;
+      color: #fff;
+      margin-top: 10px;
+  }
+  .nav-links ul li{
+      display: inline-block;
+      list-style: none;
+      padding: 8px 12px;
+      margin: 10px 30px;
+      position: relative;
+  }
+  .nav-links ul li a{
+      color: #fff;
+      text-decoration: none;
+      position: relative;
+  }
+  .nav-links ul li a::after{
+      content: '';
+      width: 0;
+      height: 3px;
+      position: absolute;
+      bottom: -5px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #fff;
+      transition: width 0.3s;
+  }
+  .nav-links ul li a:hover::after{
+      width: 100%;
+  }
+  .text-box{
+      color: #fff;
+      position: absolute;
+      bottom: 8%;
+
+  }
+  .text-box p{
+      font-size: 50px;
+      font-weight: 600;
+  }
+  .text-box h1{
+      font-size: 190px;
+      line-height: 160px;
+      margin-left: -10px;
+      color: transparent;
+      -webkit-text-stroke:1px #fff;
+      background: url(back.png);
+      -webkit-background-clip: text;
+      background-position: 0 0;
+      animation: back 20s linear infinite;
+  }
+  @keyframes back{
+  100%{
+      background-position: 2000px 0;
+  }
+  }
+
+  .text-box h3{
+      font-size: 40px;
+      font-weight: 500;  
+  }
+  .text-box .row{
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+     margin-top: 30px;
+  }
+  .text-box a{
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin-right: 20px;
+      border: 2px solid #fff;
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+  }
+
+  .text-box a:hover{
+      border: 2px 144deg,#AF40FF, #5B42F3 50%,#00DDEB;
+      background-image: linear-gradient (144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+      transition: 1s;
+  }
+  .text-box a span{
+      font-size: 30px;
+      line-height: 15px;
+      margin-left: 5px;
+  }
+        .cards-column {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 20px;
+            margin-right: 20px;
+        }
+
+        .flip-card {
+            perspective: 1000px;
+            width: 200px;
+            height: 100px;
+            position: relative;
+            transform-style: preserve-3d;
+            cursor: pointer;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-inner {
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+        }
+
+        .flip-card-front,
+        .flip-card-back {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            backface-visibility: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            border-radius: 20px;
+            transition: background 0.5s;
+        }
+
+        .flip-card-1 .flip-card-front {
+            background: linear-gradient(45deg, #fc5c7d, #6a82fb);
+        }
+
+        .flip-card-1 .flip-card-back {
+            background: linear-gradient(45deg, #35c2f5, #65a2ff);
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-1:hover .flip-card-front {
+            background: linear-gradient(45deg, #ff1a1a, #ff6666);
+        }
+
+
+
+
+
+/*
+<!-- HTML !-->
+<button class="button-63" role="button">Button 63</button>
+
+/* CSS 
+.button-63 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+} */
+
+
+
+
