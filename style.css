@@ -71,7 +71,6 @@
 .nav-links ul li a:hover::after {
     background: #fff;
 }
-  }
 .cards-column {
             display: flex;
             flex-direction: column;
