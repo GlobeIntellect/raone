@@ -50,6 +50,21 @@ int main()
     cout&lt;&lt;"Length of box: "&lt;&lt; printLength(b)&lt;&lt;endl;    
     return 0;    
 }
+      <h3> Friend function template<h3>
+
+      #include &lt;iostream.h&gt;
+      template &lt;Class T&gt; T add (T&a, T&b)
+{
+T result = a+b;
+      return result;
+      }
+      int main(){
+int i = 3 , j = 2;
+      float m = 2.3 n = 1.2;
+      cout&lt;&lt;"addition of i & j is : " &lt;&lt;add(i,j)&lt;&lt;endl;
+      cout&lt;&lt;"addition of m & n is : " &lt;&lt;add(m, n)&lt;&lt;endl;
+        return 0;
+      }
     </code>
   </pre>
 </div>
